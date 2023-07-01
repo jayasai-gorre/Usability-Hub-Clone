@@ -126,6 +126,26 @@
   }  
 
   .sub-footer-area {
-    height: 200px;
+    display: block;    
   }
+
+  .sub-footer-legals {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 28px;
+  }
+
+  .footer-area {
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    margin-left: 24%;
+    padding-bottom: 20px;
+  }
+
+  .sub-footer {
+    height: 175px;
+    display: flex;
+  }
+
 }
